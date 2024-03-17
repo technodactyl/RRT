@@ -9,14 +9,14 @@ Instructions for running:
 - The first input prompt is for choosing the method of generating start points and obstacles.
 - Type 'i' and press Enter to input start and goal nodes and obstacles manually, or any other key followed by Enter to generate two random points and anywhere between 1 and 100 obstacles.
 - The input order is as follows:
--- X-coordinate of the start node. (min 0, max 1028)
--- Y-coordinate of the start node. (min 0, max 534)
--- X-coordinate of the goal node. (min 0, max 1028)
--- Y-coordinate of the goal node. (min 0, max 534)
--- Number of obstacles (min 1, max 10)
--- For each obstacle:
---- X-coordinate of the obstacle. (min 0, max 1028)
---- Y-coordinate of the obstacle. (min 0, max 1028)
+  - X-coordinate of the start node. (min 0, max 1028)
+  - Y-coordinate of the start node. (min 0, max 534)
+  - X-coordinate of the goal node. (min 0, max 1028)
+  - Y-coordinate of the goal node. (min 0, max 534)
+  - Number of obstacles (min 1, max 10)
+  - For each obstacle:
+  1. X-coordinate of the obstacle. (min 0, max 1028)
+  2. Y-coordinate of the obstacle. (min 0, max 1028)
 - Not sticking to the numbers will not break the code, but you will most likely not be able to see the nodes or the obstacles in the pygame window.
 - After this, the corresponding scenario should run.
 
